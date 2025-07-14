@@ -8,6 +8,7 @@ public enum GameState
     Playing,
     Dead
 }
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
