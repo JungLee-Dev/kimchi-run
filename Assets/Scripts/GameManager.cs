@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 
-
 public enum GameState
 {
     Intro,
@@ -23,6 +22,7 @@ public class GameManager : MonoBehaviour
     public GameObject GoldenSpawnner;
     public Player PlayerScript;
     public TMP_Text scoreText;
+    
     void Awake() 
     {
         if(Instance == null)
