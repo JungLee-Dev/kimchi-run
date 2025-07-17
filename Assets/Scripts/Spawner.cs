@@ -24,5 +24,4 @@ public class Spawner : MonoBehaviour
         Instantiate(randomObject, transform.position, Quaternion.identity);
         Invoke("Spawn", Random.Range(minSpawnDelay, maxSpawnDelay));
     }
-
 }
