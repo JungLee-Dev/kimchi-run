@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public BoxCollider2D PlayerCollider;
     private bool isGrounded = true;
     public bool isInvincible = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
