@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameState State = GameState.Intro;
     public float PlayStartTime;
     public int Lives = 3;
+
     [Header("References")]
     public GameObject IntroUI;
     public GameObject DeadUI;
