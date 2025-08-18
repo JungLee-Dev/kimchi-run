@@ -84,6 +84,7 @@ public class Player : MonoBehaviour
     public void KillPlayer() {
         PlayerCollider.enabled = false;
         PlayerAnimator.enabled = false;
+        
         // Player Jump
         PlayerRigidBody.AddForceY(JumpForce, ForceMode2D.Impulse);
     }
